@@ -5,8 +5,8 @@
 Console.WriteLine("Задача 54: Задайте двумерный массив.");
 Console.WriteLine("Напишите программу, которая упорядочит по убыванию элементы каждой строки двумерного массива.");
 Console.WriteLine("Введите размер массива m x n и диапазон случайных значений:");
-int m = InputNumbers("Введите m: ");
-int n = InputNumbers("Введите n: ");
+int m = InputNumbers("Введите значение m: ");
+int n = InputNumbers("Введите значение n: ");
 int range = InputNumbers("Введите диапазон: от 1 до ");
 
 int[,] array = new int[m, n];
